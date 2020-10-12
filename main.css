@@ -40,26 +40,27 @@ h2 {
   font-size: 5rem;
   font-family: sans-serif;
 }
-
-.one {
+#one {
   background-color: yellow;
   border: 7px solid #6a0dad;
   border-radius: 5px;
   margin-right: 5vw;
   padding: 3.5vw 6vw;
 }
-
-.two {
+#two {
   background-color: #00ffff;
   border: 7px solid #6a0dad;
   border-radius: 5px;
   padding: 3.5vw 6vw;
 }
-
-.three {
+#three {
   background-color: #00FF00;
   border: 7px solid #6a0dad;
   border-radius: 5px;
   margin-left: 5vw;
   padding: 3.5vw 6vw;
+}
+
+p {
+  font-size: .8rem;
 }
