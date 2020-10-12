@@ -64,3 +64,8 @@ h2 {
 p {
   font-size: .8rem;
 }
+
+button {
+  color: #6a0dad;
+  font-size: 1rem;
+}

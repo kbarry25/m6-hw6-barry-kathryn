@@ -69,3 +69,28 @@ document.getElementById("three").addEventListener("click",
     newPara.innerHTML = "Oops, butter luck next time";
     document.getElementById("three").appendChild(newPara);
   })
+
+
+document.getElementById("one").addEventListener("click",
+  function() {
+    var btn = document.createElement("button");
+    btn.innerHTML = "START OVER";
+    document.getElementById('one').appendChild(btn);
+    window.location = "#";
+  })
+
+  document.getElementById("two").addEventListener("click",
+    function() {
+      var btn = document.createElement("button");
+      btn.innerHTML = "START OVER";
+      document.getElementById('two').appendChild(btn);
+      window.location = "#";
+    })
+
+    document.getElementById("three").addEventListener("click",
+      function() {
+        var btn = document.createElement("button");
+        btn.innerHTML = "START OVER";
+        document.getElementById('three').appendChild(btn);
+        window.location = "#";
+      })
